@@ -14,6 +14,18 @@ import java.net.URL;
 public class ProtocolTester {
 
     public static void main(String args[]){
+
+        // 输出虚拟机支持的url协议
+        printProtocolSupport();
+
+
+    }
+
+
+    /**
+     *  输出虚拟机支持的url协议
+     */
+    private static void printProtocolSupport() {
         // 超文本传输协议
         testProtocol("http://www.qq.com");
 
@@ -55,9 +67,7 @@ public class ProtocolTester {
         testProtocol("netdoc://UsersGuide/release.html");
         testProtocol("systemresource://www.abc.org/+/index.html");
         testProtocol("verbatim:http://www.adc.org/");
-
     }
-
 
 
     /**
