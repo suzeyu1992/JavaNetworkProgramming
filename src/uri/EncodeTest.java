@@ -39,7 +39,7 @@ public class EncodeTest {
             System.out.println(URLEncoder.encode("This=String=has=equals=signs" , "UTF-8"));
 
             System.out.println(URLEncoder.encode("This&String&has&ampersands" , "UTF-8"));
-            
+
             System.out.println(URLEncoder.encode("ThisÉStringÉhasÉnon-ASCII characters" , "UTF-8"));
 
         } catch (UnsupportedEncodingException e) {
