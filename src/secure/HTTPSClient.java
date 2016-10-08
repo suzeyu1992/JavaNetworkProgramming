@@ -29,7 +29,7 @@ public class HTTPSClient {
         // 获取 secure socket的构建工厂类
         SSLSocketFactory factory = (SSLSocketFactory) SSLSocketFactory.getDefault();
         SSLSocket socket = null;
-
+        http://service1.dowei.net:8001/sys_port/gateway/SendSms.asp?
         try {
 
             socket = (SSLSocket) factory.createSocket(DEFAULT_HOST, DEFAULT_PORT);
