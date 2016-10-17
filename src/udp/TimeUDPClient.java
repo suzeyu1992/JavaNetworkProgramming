@@ -15,8 +15,8 @@ import java.net.InetAddress;
  */
 public class TimeUDPClient {
 
-    private final static int PORT = 13;
-    private static final String HOSTNAME = "time.nist.gov";
+    private final static int PORT = 9989;
+    private static final String HOSTNAME = "localhost";
 
     public static void main(String args[]){
 
